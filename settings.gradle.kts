@@ -1,1 +1,1 @@
-rootProject.name = "com.eskelinenantti.htmx"
+rootProject.name = "com.eskelinenantti.ktor-tailwind"
