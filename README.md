@@ -1,6 +1,6 @@
 # Ktor with Tailwind
 
-A sample Ktor application that uses kotlinx.html and Tailwind to generate websites.
+A sample Ktor application with kotlinx.html HTML templating and Tailwind.
 
 ## Highlights
 
