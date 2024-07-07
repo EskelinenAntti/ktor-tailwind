@@ -9,3 +9,16 @@ A sample Ktor application with kotlinx.html HTML templating and Tailwind.
 - The `tailwindcss` cli is executed as part of the Gradle build with `node-gradle` plugin. See the custom `NpxTask` task in [build.gradle.kts](build.gradle.kts).   
 - [tailwind.config.js](tailwind.config.js) configures a path to the source files which the tailwind cli scans when generating the stylesheet.
   - There is no additional magic needed even though the source files are written in Kotlin: the default config works almost out-of-the box in simple scenarios.
+- The page contents are defined in [Application.kt](src/main/kotlin/example/com/Application.kt).
+
+## How to run
+
+Run the project with
+
+`./gradlew run`
+
+As part of the Gradle build, the Tailwind CLI gets executed, resulting in `styles.css` file under static/ folder.
+
+Open your favourite browser and head to `http://localhost`.
+
+<img src="docs/screenshot.png" />
